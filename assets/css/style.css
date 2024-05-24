@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 200px;
+    padding: 15px 0;
+}
+
+header{
+    text-align: center;
+    background-image: url('../images/casper.jpg');
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+header h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #00227D;
+}
+
+header h1{
+    color: #00195e;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    line-height: 38px;
+    margin-bottom: 90px;
+}
+
+header a{
+    background-color: #00195e;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+header a:hover{
+    background-color: #fff;
+    color: #00195e;
+}
+
+header h4{
+    font-family: "Poppins", sans-serif;
+    color: #00195e;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.welcome{
+    padding: 30px 0;
+    text-align: center;
+    color: #00195e;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.content{
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    min-height: 110px;
+    border-radius: 10px;
+}
+
+.content h2{
+    font-family: "Poppins", sans-serif;
+    color: #00195e;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+footer {
+	background-color: #30373b;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+    margin-top: 70px
+}
+
+
+/* CSS for smaller devices */
+@media only screen and (max-width: 600px) {
+
+    .logo img{
+        width: 100px;
+        padding: 10px 0;
+    }
+
+    header{
+        height: 400px;
+        padding: 30px 0;
+    }
+
+    header h3{
+        font-size: 13px;
+    }
+
+    header h1{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 50px;
+    }
+
+    header a{
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    header h4{
+        font-size: 15px;
+    }
+
+    .welcome{
+        padding: 10px
+    }
+
+    .welcome h1{
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 30px;
+    }
+
+    .content{
+        width: 100%
+    }
+
+} 
